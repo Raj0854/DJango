@@ -1,7 +1,7 @@
 ### create Urls
 In Django, URLs are used to map specific web addresses to views, which handle the logic for processing requests and returning responses. To create URLs in Django, follow these steps:
 1. **Create a urls.py File:**
-   Inside your app directory, create a new file called `urls.py`. This file will contain the URL patterns for your app.
+   Inside your app directory, create a new file called `urls.py`. This file will contain the URL patterns for your app.Usually, this file is created automatically when you create a new app using the `startapp` command. If it is not created, you can create it manually using the following command:
 
    ```bash
    touch appname/urls.py
