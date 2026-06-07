@@ -20,4 +20,10 @@ Static files are essential for any web application as they include CSS, JavaScri
    ```bash
    mkdir static
    ```
+3. **Organize Static Files:**
+   Inside the `static` directory, you can create subdirectories to organize your static files. For example, you can create `css`, `js`, and `images` directories:
+
+   ```bash
+   mkdir static/css static/js static/images
+   ```
    
