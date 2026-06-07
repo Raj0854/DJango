@@ -13,4 +13,11 @@ Static files are essential for any web application as they include CSS, JavaScri
 
    - `STATIC_URL` is the URL prefix for static files. You can change it if you want to serve static files from a different URL.
    - `STATICFILES_DIRS` is a list of directories where Django will look for static files. In this example, we are telling Django to look for static files in a directory named `static` located at the base of your project.    
+
+2. **Create a Static Directory:**
+   In your project directory, create a new directory called `static`. This is where you will store your static files such as CSS, JavaScript, and images.
+
+   ```bash
+   mkdir static
+   ```
    
