@@ -26,4 +26,13 @@ Static files are essential for any web application as they include CSS, JavaScri
    ```bash
    mkdir static/css static/js static/images
    ```
-   
+4. **Add Static Files:**
+   Now you can add your static files to the appropriate subdirectories. For example, you can add a CSS file named `styles.css` to the `static/css` directory.
+5. **Use Static Files in Templates:**
+   To use static files in your Django templates, you need to load the static template tag and then reference the static files using the `static` template tag. Here's an example of how to include a CSS file in your template:
+
+   ```html
+   {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    ```
+    In this example, we are loading the `styles.css` file from the `static/css` directory. Make sure to adjust the path according to where your static files are located.
